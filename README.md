@@ -8,7 +8,7 @@ Guia de como usar o Google Colab para desenvolver C++:
 
 3) Na primeira célula execute: ``` !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git ```
 
-4) Crie nova célula abaixo e execute: ```cpp %load_ext nvcc_plugin ```cpp
+4) Crie nova célula abaixo e execute: ```cpp %load_ext nvcc_plugin ```
 
 5) Teste o Hello World:
 ```cpp
