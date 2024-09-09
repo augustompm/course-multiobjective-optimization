@@ -6,12 +6,12 @@ Guia de como usar o Google Colab para desenvolver C++:
 
 2) No menu, vá até "Runtime" > "Change runtime type" e selecione "T4 GPU" como acelerador de hardware.
 
-3) Na primeira célula execute: !pip install git+git://github.com/andreinechaev/nvcc4jupyter.git
+3) Na primeira célula execute: ``` !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git ```
 
-4) Crie nova célula abaixo e execute: %load_ext nvcc_plugin
+4) Crie nova célula abaixo e execute: ```cpp %load_ext nvcc_plugin ```cpp
 
 5) Teste o Hello World:
-
+```cpp
 %%cu
 //Olá mundo imprimindo de 1 até 10
 #include <iostream>
@@ -22,5 +22,5 @@ int main() {
     std::cout << std::endl;
     return 0;
 }
-
-6) Repense se precisa mesmo de Python. :) 
+```
+6) Mundo precisa de mais programadores C++. :) 
